@@ -1,0 +1,109 @@
+:root {
+  --Strong-Cyan: hsl(171, 66%, 44%);
+  --Light-Blue: hsl(233, 100%, 69%);
+  --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+  --Grayish-Blue: hsl(201, 11%, 66%);
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+* {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.text {
+  font-size: 14px;
+  letter-spacing: 0.05cap;
+  line-height: 1.5;
+}
+
+.header-title {
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 0.05cap;
+}
+
+.header-text {
+  max-width: 550px;
+}
+
+.btn {
+  width: 160px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: white;
+  box-shadow: 0px 2px 1px var(--Dark-Grayish-Blue);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.bg-strong-cyan {
+  background-color: var(--Strong-Cyan);
+}
+
+.bg-strong-cyan:hover {
+  background-color: var(--Strong-Cyan);
+  color: white;
+}
+
+.bg-light-blue {
+  background-color: var(--Light-Blue);
+}
+
+.bg-light-blue:hover {
+  background-color: var(--Light-Blue);
+  color: white;
+}
+
+.bg-grayish-blue {
+  background-color: hsl(201, 11%, 95%);
+}
+
+.color-grayish-blue {
+  color: var(--Grayish-Blue);
+}
+
+.color-dark-grayish-blue {
+  color: var(--Dark-Grayish-Blue);
+}
+
+.feature-title {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 0.05cap;
+}
+
+.feature-text {
+  max-width: 580px;
+}
+
+.feature-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.feature-item-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.feature-item-text {
+  max-width: 300px;
+}
+
+.footer-link span {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer-link span:hover {
+  cursor: pointer;
+  color: var(--Strong-Cyan);
+}
